@@ -4,20 +4,46 @@
     padding: 0%;
 }
 
+nav {
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 20%;
+    text-align: center;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: honeydew;
+    font-weight: bold;
+}
+
+.botton {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: honeydew;
+    border-radius: 50%;
+    margin: 20px;
+}
+
 section {
     height: 100vh;
     position: relative;
 }
 
-.red {
+#red {
     background-color: red;
 }
 
-.green {
+#green {
     background-color: green;
 }
 
-.yellow {
+#yellow {
     background-color: yellow;
 }
 
@@ -40,10 +66,10 @@ h1{
     font-size: 40px;
 }
 
-.red h1, .green h1 {
+#red h1, #green h1 {
     color: yellow;
 }
 
-.yellow h1 {
+#yellow h1 {
     color: green;
 }
