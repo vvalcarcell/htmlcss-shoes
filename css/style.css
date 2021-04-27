@@ -21,6 +21,10 @@ a {
     font-weight: bold;
 }
 
+ul {
+    list-style: none;
+}
+
 .botton {
     display: inline-block;
     height: 30px;
